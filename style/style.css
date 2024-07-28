@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+
+}
+
+.container {
+    background-color: rgb(69, 47, 47);
+    height: 100%;
+    width: 100%;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button1,
+.button2,
+.button3 {
+
+    margin: 10px;
+    padding: 20px;
+    color: black;
+    background: bisque;
+    font-weight: 800;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.button2:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 8px blue;
+    border: 0px;
+    border-bottom-right-radius: 2px;
+    border: 2px solid;
+    border-block-start-color: green;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
